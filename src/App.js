@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 //import anotherPic from './logo192.png';
 import './App.css';
+import MyForm from './components/Form';
 
 function App() {
   return (
+    <>
+    <MyForm/>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -21,6 +24,7 @@ function App() {
         </a>
       </header>
     </div>
+    </>
   );
 }
 
