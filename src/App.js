@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+//import anotherPic from './logo192.png';
 import './App.css';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={anotherPic} className="App-anotherPic" alt="anotherPic" /> */}
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -15,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          react app
+          React app
         </a>
       </header>
     </div>
