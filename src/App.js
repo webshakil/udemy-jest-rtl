@@ -1,12 +1,15 @@
 import logo from './logo.svg';
 //import anotherPic from './logo192.png';
 import './App.css';
-import MyForm from './components/Form';
+import MyForm from './component/Form';
+import Counter from './component/Counter';
+
 
 function App() {
   return (
     <>
-    <MyForm/>
+    <Counter/>
+   <MyForm/>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

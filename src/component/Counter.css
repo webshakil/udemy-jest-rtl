@@ -1,0 +1,9 @@
+/* Counter.css (or your CSS file) */
+
+.container {
+    display: flex;
+    flex-direction: column; /* Display children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Set the height to full viewport height */
+  }
