@@ -3,11 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import MyForm from './component/Form';
 import Counter from './component/Counter';
+import ForMocking from './component/ForMocking';
 
 
 function App() {
   return (
     <>
+    <ForMocking/>
     <Counter/>
    <MyForm/>
     <div className="App">
